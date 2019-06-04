@@ -31,3 +31,15 @@
     transform: rotate(360deg);
   }
 }
+.App{
+  display: grid;
+  grid-template-columns: auto 400px auto ;
+}
+#signup-form{
+  margin-top: 10%;
+}
+#capture-form{
+  margin-top: 10%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
