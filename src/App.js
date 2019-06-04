@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
-import SignUp from './signUp.js';
+import {HashRouter} from 'react-router-dom'
+import Routes from './Routes'
 
 function App() {
   return (
     <div className="App">
-      <SignUp />
+      <HashRouter>
+        <Routes />
+      </HashRouter>
     </div>
   );
 }
