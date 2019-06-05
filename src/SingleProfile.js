@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import './App.css';
 import { Card } from 'react-bootstrap';
 
-
 export default class SingleProfile extends Component {
  render(){ 
      const { profiles } = this.props
