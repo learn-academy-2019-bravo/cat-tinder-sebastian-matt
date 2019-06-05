@@ -5,12 +5,18 @@ class SignUp extends React.Component{
     constructor(props){
         super(props)
         this.state={
-            test: "helloe"
             
         }
         
     }
+    
+    handleClick(){
+      console.log("click handled")
+    }
+    
     render(){
+      let { handleClick }=this
+      const {addCat}=this.props
         return(
           <div id='capture-form'>
           <h1>Cat Profile Maker</h1>
@@ -29,7 +35,7 @@ class SignUp extends React.Component{
                   <Form.Label>Cat's Bio</Form.Label>
                   <Form.Control as="textarea" rows="3" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button onClick={addCat} variant="primary" type="submit">
                   Create Profile
                 </Button>
               </Form>

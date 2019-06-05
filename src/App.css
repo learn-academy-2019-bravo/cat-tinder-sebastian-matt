@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+#capture-form{
+  max-width: 500px;
+  margin: auto;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -42,4 +46,12 @@
   margin-top: 10%;
   grid-column-start: 2;
   grid-column-end: 3;
+}
+#single-profile{
+  padding: 20px;
+  margin: auto;
+  max-width: 500px;
+}
+h1{
+  text-align: center;
 }

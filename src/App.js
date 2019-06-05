@@ -1,16 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import {HashRouter} from 'react-router-dom'
 import Routes from './Routes'
 
-function App() {
-  return (
-    <div className="App">
-      <HashRouter>
-        <Routes />
-      </HashRouter>
-    </div>
-  );
+export default class App extends Component {
+
+  render(){
+    return (
+      <div>
+        <HashRouter>
+          <Routes />
+        </HashRouter>
+      </div>
+    );
+  }
 }
 
-export default App;
