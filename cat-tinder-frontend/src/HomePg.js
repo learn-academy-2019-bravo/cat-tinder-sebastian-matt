@@ -22,6 +22,9 @@ export default class Home extends Component {
                <li>
                  <Link to="/catprofiles/">Profiles</Link>
                </li>
+               <li>
+               <Link to="/newcat/">Add Cat</Link>
+               </li>
              </ul>
            </nav>
             </Route>
